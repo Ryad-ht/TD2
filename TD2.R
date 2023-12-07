@@ -1,3 +1,11 @@
-TD2 <-read.csv2("/Users/ryadhadj-tahar/Mes_TD/insurance_V1.csv")
+TD2 <-read.csv("/Users/ryadhadj-tahar/Mes_TD/insurance_V1.csv")
 summary(TD2)
 
+library(dplyr)
+df <- filter(TD2,age>60)
+select(df,age)
+TD2 %>% select(age,children) %>% filter(age>60)
+TD2 %>% select(age,sex) %>% filter(sex=='female')
+TD2 %>% select(age,sex,region) %>% filter(region=='southwest')
+df5 <- filter(TD2, !grepl("south",region))
+select(df5,region)

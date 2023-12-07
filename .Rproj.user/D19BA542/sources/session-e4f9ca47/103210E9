@@ -3,9 +3,9 @@
     "path": "~/Mes_TD/TD2.R",
     "project_path": "TD2.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "4172050855",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1701954410077.0,
     "source_on_save": false,
     "relative_order": 1,
@@ -17,11 +17,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1701955553,
+    "lastKnownWriteTime": 1701956750,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1701956365534,
+    "last_content_update": 1701956750588,
     "read_only": false,
     "read_only_alternatives": []
 }
